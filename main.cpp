@@ -176,24 +176,24 @@ int main(int argc, char *argv[])
     LCC_4 lcc, lcc1, lcc2;
 
     // Create points for the inside cube
-    Point pi1 = create_point( 1,-1,-1,-1);
-    Point pi2 = create_point( 2, 1,-1,-1);
-    Point pi3 = create_point( 3, 1,-1,-1);
-    Point pi4 = create_point( 4,-1,-1,-1);
-    Point pi5 = create_point( 5,-1, 1,-1);
-    Point pi6 = create_point( 6, 1, 1,-1);
-    Point pi7 = create_point( 7, 1, 1,-1);
-    Point pi8 = create_point( 8,-1, 1,-1);
+    Point pi1 = create_point(-1,-1,-1,-1);
+    Point pi2 = create_point(-1, 1,-1,-1);
+    Point pi3 = create_point( 1, 1,-1,-1);
+    Point pi4 = create_point( 1,-1,-1,-1);
+    Point pi5 = create_point(-1,-1, 1,-1);
+    Point pi6 = create_point(-1, 1, 1,-1);
+    Point pi7 = create_point( 1, 1, 1,-1);
+    Point pi8 = create_point( 1,-1, 1,-1);
 
     // Create points for the outside cube
-    Point po1 = create_point( 1,-1,-1, 1);
-    Point po2 = create_point( 2, 1,-1, 1);
-    Point po3 = create_point( 3, 1,-1, 1);
-    Point po4 = create_point( 4,-1,-1, 1);
-    Point po5 = create_point( 5,-1, 1, 1);
-    Point po6 = create_point( 6, 1, 1, 1);
-    Point po7 = create_point( 7, 1, 1, 1);
-    Point po8 = create_point( 8,-1, 1, 1);
+    Point po1 = create_point(-1,-1,-1, 1);
+    Point po2 = create_point(-1, 1,-1, 1);
+    Point po3 = create_point( 1, 1,-1, 1);
+    Point po4 = create_point( 1,-1,-1, 1);
+    Point po5 = create_point(-1,-1, 1, 1);
+    Point po6 = create_point(-1, 1, 1, 1);
+    Point po7 = create_point( 1, 1, 1, 1);
+    Point po8 = create_point( 1,-1, 1, 1);
 
     // Declare the tessract cubes
     Cube ci, co, c1, c2, c3, c4, cb, ct;
